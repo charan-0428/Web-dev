@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(123, 126, 125);
+  margin: 1%;
+  font-family: Arial, sans-serif;
+}
+
+header .nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  header .nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  header .nav {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+header .nav a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  padding: 1rem 0;
+  border-radius: 0.3vw;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+header .nav a:hover {
+  transform: translateY(-2px);
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+.con-m {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 1024px) {
+  .con-m {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .con-m {
+    grid-template-columns: 1fr;
+  }
+}
+.con-m .con-c {
+  background: url(./images/image.jpg) center/cover;
+  min-height: 55vh;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3vw;
+}
+@media (max-width: 768px) {
+  .con-m .con-c {
+    min-height: 40vh;
+  }
+}
+.con-m .con-c .con h1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 1rem;
+}
+.con-m .con-c .con p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  max-width: 60ch;
+}
+.con-m .con-c button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.3vw;
+  position: absolute;
+  left: 1rem;
+}
+.con-m .con-c button:hover {
+  opacity: 0.9;
+}
+
+.membership-cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .membership-cards {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .membership-cards {
+    grid-template-columns: 1fr;
+  }
+}
+.membership-cards .card {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-size: clamp(1rem, 2vw, 1.45rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.3vw;
+}
+.membership-cards .card h4 {
+  margin-bottom: 0.5rem;
+}
+.membership-cards .card pre {
+  font-family: inherit;
+  margin: 1rem 0;
+}
+.membership-cards .card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.3vw;
+  width: 80%;
+  max-width: 200px;
+  margin: 0.5rem auto;
+}
+.membership-cards .card button:hover {
+  opacity: 0.9;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 1024px) {
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+}
+.service-cards .card {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 0.3vw;
+  transition: transform 0.2s;
+}
+.service-cards .card:hover {
+  transform: translateY(-5px);
+}
+.service-cards .card img {
+  width: clamp(50px, 20%, 100px);
+  margin-bottom: 1rem;
+}
+.service-cards .card h4 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+}
+.service-cards .card p {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  line-height: 1.5;
+  color: #444;
+}/*# sourceMappingURL=style.css.map */

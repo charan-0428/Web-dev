@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid p-0">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav d-flex flex-column flex-lg-row col-12 justify-content-lg-center">
+                        <a class="nav-link text-center text-lg-start" href="#">HOME</a>
+                        <a class="nav-link text-center text-lg-start" href="#">ABOUT</a>
+                        <a class="nav-link text-center text-lg-start" href="#">SERVICES</a>
+                        <a class="nav-link text-center text-lg-start" href="#">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid p-0">
+        <!-- Hero Section with Membership Cards -->
+        <div class="row mb-4">
+            <!-- Hero Section -->
+            <div class="col-md-9 mb-3 mb-md-0">
+                <div class="section rounded">
+                    <div>
+                        <h1>Your Web Presence</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non accusantium voluptate in similique.</p>
+                    </div>
+                    <button class="custom-btn m-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Membership Cards -->
+            <div class="col-md-3">
+                <div class="membership-cards d-flex flex-md-column gap-3 h-100">
+                    <div class="membership-card rounded flex-grow-1">
+                        <h4>Membership</h4>
+                        <pre class="mt-2">$199/mo</pre>
+                        <button class="custom-btn">Buy Now</button>
+                    </div>
+                    <div class="membership-card rounded flex-grow-1">
+                        <h4>Pro Membership</h4>
+                        <pre class="mt-2">$299/mo</pre>
+                        <button class="custom-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Cards -->
+        <div class="row g-4">
+            <!-- Analytics Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="cards rounded">
+                    <img src="analytics.png" alt="Analytics icon" class="img-fluid">
+                    <h4>Analytics</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, architecto eius et recusandae</p>
+                </div>
+            </div>
+
+            <!-- Marketing Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="cards rounded">
+                    <img src="marketing.png" alt="Marketing icon" class="img-fluid">
+                    <h4>Marketing</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, architecto eius et recusandae</p>
+                </div>
+            </div>
+
+            <!-- Development Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="cards rounded">
+                    <img src="development.png" alt="Development icon" class="img-fluid">
+                    <h4>Development</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, architecto eius et recusandae</p>
+                </div>
+            </div>
+
+            <!-- Support Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="cards rounded">
+                    <img src="support.png" alt="Support icon" class="img-fluid">
+                    <h4>Support</h4>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, architecto eius et recusandae</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+// Color Variables
+$background-color: rgb(123, 126, 125);
+$nav-link-background: rgb(221, 215, 215);
+$membership-card-background: rgb(228, 222, 222);
+$service-card-background: whitesmoke;
+$button-background: #333;
+$white: white;
+$black: black;
+
+body {
+    background-color: $background-color;
+    padding: 15px;
+}
+
+.nav-link {
+    background-color: $nav-link-background;
+    padding: 0.5rem 9rem !important;
+    margin: 3px;
+    border-radius: 4px;
+    color: $black !important;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    background: url(image.jpg) center/cover;
+    min-height: 55vh;
+    color: $white;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.membership-card {
+    background-color: $membership-card-background;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+    background-color: $service-card-background;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    img {
+        width: 25%;
+        margin-bottom: 15px;
+    }
+}
+
+.custom-btn {
+    background-color: $button-background;
+    color: $white;
+    border: none;
+    padding: 6px 20px;
+}
+
+.m-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+@media (max-width: 768px) {
+    .membership-cards {
+        margin-top: 15px;
+    }
+}

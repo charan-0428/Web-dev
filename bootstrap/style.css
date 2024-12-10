@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(123, 126, 125);
+  padding: 15px;
+}
+
+.nav-link {
+  background-color: rgb(221, 215, 215);
+  padding: 0.5rem 9rem !important;
+  margin: 3px;
+  border-radius: 4px;
+  color: black !important;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  background: url(image.jpg) center/cover;
+  min-height: 55vh;
+  color: white;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.membership-card {
+  background-color: rgb(228, 222, 222);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.cards img {
+  width: 25%;
+  margin-bottom: 15px;
+}
+
+.custom-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+}
+
+.m-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+@media (max-width: 768px) {
+  .membership-cards {
+    margin-top: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
