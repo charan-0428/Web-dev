@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+$primary-color: #3498db;
+$background-color: #f4f4f4;
+$text-color: #333;
+$card-bg: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('bg.jpg') center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.weather-app {
+    background-color: $card-bg;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+
+    input {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px 0 0 4px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+    }
+}
+
+.w-info {
+    .city-name {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #3db93d;
+    }
+    .weather-icon {
+        font-size: 6rem; 
+        margin-bottom: 20px;
+        color: #504a49;
+    }
+    .result{
+        text-align: left;
+    }
+    .card {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .weather-detail {
+            width: 100%;
+            
+            
+            p {
+                gap: 15px;
+                color: $text-color;
+                font-size: 24px; 
+                margin-bottom: 6px;
+                
+                i {
+                    color: $primary-color;
+                    font-size: 24px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+
+    .error {
+        color: #e74c3c;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <h1>Weather</h1>
+            <div class="search-container">
+                <input type="search" name="search" placeholder="Enter city name" id="search">
+                <button  class="btn" onclick="search()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <section class="w-info">
+                <!-- Weather info will be dynamically inserted here -->
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
