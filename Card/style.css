@@ -1,0 +1,152 @@
+header div {
+  height: 8vh;
+  background-image: linear-gradient(to left, rgb(86, 180, 180), rgb(207, 59, 173));
+}
+
+body {
+  text-align: center;
+  box-shadow: #161515;
+}
+body header {
+  width: 99vw;
+  height: 8vh;
+  background: linear-gradient(to right, #7bce3c, #e43b03);
+  border-radius: 20px;
+}
+body > div {
+  display: inline-block;
+  height: 45vh;
+  width: 15vw;
+  position: relative;
+  box-shadow: rgb(91, 91, 91);
+  border-top-right-radius: 20px;
+}
+body > div i {
+  margin-top: 30px;
+  font-size: 50px;
+  color: white;
+}
+body > div:nth-of-type(1) {
+  background-color: #71a3c1;
+  top: 20vh;
+  margin: 0 4rem;
+}
+body > div:nth-of-type(1) div {
+  background-color: white;
+  position: absolute;
+  height: 45vh;
+  width: 15vw;
+  top: 10rem;
+  right: 5rem;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+body > div:nth-of-type(1) div p {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px rgb(86, 88, 86);
+}
+body > div:nth-of-type(1) div p:nth-of-type(2) {
+  text-align: center;
+  font-weight: 100;
+  margin: 0 40px;
+  font-size: 1rem;
+}
+body > div:nth-of-type(1) div:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+body > div:nth-of-type(2) {
+  background-color: #f24d49;
+  top: 10vh;
+  margin: 0 4rem 0 0;
+}
+body > div:nth-of-type(2) div {
+  background-color: white;
+  position: absolute;
+  height: 45vh;
+  width: 15vw;
+  top: 10rem;
+  left: 5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body > div:nth-of-type(2) div p {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px rgb(86, 88, 86);
+}
+body > div:nth-of-type(2) div p:nth-of-type(2) {
+  text-align: center;
+  font-weight: 100;
+  margin: 0 40px;
+  font-size: 1rem;
+}
+body > div:nth-of-type(2) div:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+body > div:nth-of-type(3) {
+  background-color: #75ba75;
+  top: 20vh;
+  margin: 0 4rem 0 8rem;
+}
+body > div:nth-of-type(3) div {
+  background-color: white;
+  position: absolute;
+  height: 45vh;
+  width: 15vw;
+  top: 10rem;
+  right: 5rem;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body > div:nth-of-type(3) div p {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px rgb(86, 88, 86);
+}
+body > div:nth-of-type(3) div p:nth-of-type(2) {
+  text-align: center;
+  font-weight: 100;
+  margin: 0 40px;
+  font-size: 1rem;
+}
+body > div:nth-of-type(3) div:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+body > div:nth-of-type(4) {
+  background-color: #f5945c;
+  top: 10vh;
+  margin: 0 4rem 0 0;
+}
+body > div:nth-of-type(4) div {
+  position: absolute;
+  background-color: white;
+  height: 45vh;
+  width: 15vw;
+  top: 10rem;
+  left: 5rem;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body > div:nth-of-type(4) div p {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px rgb(86, 88, 86);
+}
+body > div:nth-of-type(4) div p:nth-of-type(2) {
+  text-align: center;
+  font-weight: 100;
+  margin: 0 40px;
+  font-size: 1rem;
+}
+body > div:nth-of-type(4) div:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=style.css.map */
