@@ -1,6 +1,6 @@
 // Replace with your actual OpenWeatherMap API key
 const api = `https://api.openweathermap.org/data/2.5`;
-const key = '07528270228b151dfa0c6f11b3ce3484';
+const key = 'apikey';
 
 function getWeatherIcon(description) {
     const icons = {
