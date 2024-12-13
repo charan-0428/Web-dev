@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#data {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  width: 250px; 
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  color: #007BFF;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+body {
+  background-color: #e0e4e8;
+}
+
+input{
+  border-color: #b0bec5;
+}
+
+button {
+  background-color: #1e88e5;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(50, 50, 93, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9fc;
+}
